@@ -1,0 +1,351 @@
+{
+    "cod": "200",
+    "message": 0,
+    "departamento_list": [
+        {
+            "id": 11,
+            "nombre": "Central",
+            "población": 1866562,
+            "coord": {
+                "lat": -25.380646,
+                "lon": -57.602323
+            },
+            "pronostico_extendido_list": [
+                {
+                    "fecha_hora_txt": "2024-05-11 06:00:00",
+                    "dia_text": "hoy",
+                    "main": {
+                        "temp": 21.34,
+                        "temp_min": 21.34,
+                        "temp_max": 30.24,
+                        "humedad": 100
+                    },
+                    "clima": [
+                        {
+                            "id": 1,
+                            "tipo": "lluvia",
+                            "description": "lluvia"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 40.05,
+                        "direccion": 66
+                    },
+                    "visibilidad": 5000,
+                    "probabilidad_precipitacion": 0.99,
+                    "lluvia": {
+                        "volumen_1h": 0.4
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-12 06:00:00",
+                    "dia_text": "domingo",
+                    "main": {
+                        "temp": 19.54,
+                        "temp_min": 15.32,
+                        "temp_max": 22.08,
+                        "humedad": 91
+                    },
+                    "clima": [
+                        {
+                            "id": 2,
+                            "tipo": "numblado_total",
+                            "description": "Nublado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 20.3,
+                        "direccion": 55
+                    },
+                    "visibilidad": 7000,
+                    "probabilidad_precipitacion": 0.32,
+                    "lluvia": {
+                        "volumen_1h": 0.13
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-13 06:00:00",
+                    "dia_text": "lunes",
+                    "main": {
+                        "temp": 22.87,
+                        "temp_min": 19.22,
+                        "temp_max": 26.08,
+                        "humedad": 85
+                    },
+                    "clima": [
+                        {
+                            "id": 3,
+                            "tipo": "nublado_parcialemente",
+                            "description": "Parcialmente Nublado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 40.5,
+                        "direccion": 78
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.15,
+                    "lluvia": {
+                        "volumen_1h": 0
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-14 06:00:00",
+                    "dia_text": "martes",
+                    "main": {
+                        "temp": 24.87,
+                        "temp_min": 20.56,
+                        "temp_max": 30.08,
+                        "humedad": 80
+                    },
+                    "clima": [
+                        {
+                            "id": 3,
+                            "tipo": "nublado_parcialemente",
+                            "description": "Parcialmente Nublado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 70.5,
+                        "direccion": 95.4
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.05,
+                    "lluvia": {
+                        "volumen_1h": 0.02
+                    }
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "nombre": "Boqueron",
+            "población": 68595,
+            "coord": {
+                "lat": -22.125705,
+                "lon": -60.737641
+            },
+            "pronostico_extendido_list": [
+                {
+                    "fecha_hora_txt": "2024-05-11 06:00:00",
+                    "dia_text": "hoy",
+                    "main": {
+                        "temp": 27.35,
+                        "temp_min": 23.35,
+                        "temp_max": 35.29,
+                        "humedad": 90
+                    },
+                    "clima": [
+                        {
+                            "id": 5,
+                            "tipo": "tormenta_electrica",
+                            "description": "Tormenta Electrica"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 80.15,
+                        "direccion": 30
+                    },
+                    "visibilidad": 6000,
+                    "probabilidad_precipitacion": 90.51,
+                    "lluvia": {
+                        "volumen_1h": 8.3
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-12 06:00:00",
+                    "dia_text": "domingo",
+                    "main": {
+                        "temp": 33.84,
+                        "temp_min": 28.32,
+                        "temp_max": 39.08,
+                        "humedad": 15
+                    },
+                    "clima": [
+                        {
+                            "id": 4,
+                            "tipo": "soleado",
+                            "description": "Caluroso"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 10.3,
+                        "direccion": 51
+                    },
+                    "visibilidad": 9000,
+                    "probabilidad_precipitacion": 0.02,
+                    "lluvia": {
+                        "volumen_1h": 0.01
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-13 06:00:00",
+                    "dia_text": "lunes",
+                    "main": {
+                        "temp": 30.07,
+                        "temp_min": 25.72,
+                        "temp_max": 40.08,
+                        "humedad": 5
+                    },
+                    "clima": [
+                        {
+                            "id": 4,
+                            "tipo": "soleado",
+                            "description": "Caluroso"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 30.5,
+                        "direccion": 15
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.15,
+                    "lluvia": {
+                        "volumen_1h": 0
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-14 06:00:00",
+                    "dia_text": "martes",
+                    "main": {
+                        "temp": 35.87,
+                        "temp_min": 29.54,
+                        "temp_max": 44.01,
+                        "humedad": 10
+                    },
+                    "clima": [
+                        {
+                            "id": 4,
+                            "tipo": "soleado",
+                            "description": "Caluroso"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 30.5,
+                        "direccion": 45.4
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.05,
+                    "lluvia": {
+                        "volumen_1h": 0.02
+                    }
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "nombre": "Caaguazú",
+            "población": 131143,
+            "coord": {
+                "lat": -25.460147,
+                "lon": -56.026884
+            },
+            "pronostico_extendido_list": [
+                {
+                    "fecha_hora_txt": "2024-05-11 06:00:00",
+                    "dia_text": "hoy",
+                    "main": {
+                        "temp": 15.46,
+                        "temp_min": 10.35,
+                        "temp_max": 19.87,
+                        "humedad": 70
+                    },
+                    "clima": [
+                        {
+                            "id": 4,
+                            "tipo": "soleado",
+                            "description": "Completamente Despejado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 30.15,
+                        "direccion": 20
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.43,
+                    "lluvia": {
+                        "volumen_1h": 0.2
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-12 06:00:00",
+                    "dia_text": "domingo",
+                    "main": {
+                        "temp": 12.84,
+                        "temp_min": 9.22,
+                        "temp_max": 14.08,
+                        "humedad": 60
+                    },
+                    "clima": [
+                        {
+                            "id": 2,
+                            "tipo": "nublado_total",
+                            "description": "Nublado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 80.3,
+                        "direccion": 67
+                    },
+                    "visibilidad": 5000,
+                    "probabilidad_precipitacion": 30.6,
+                    "lluvia": {
+                        "volumen_1h": 3.43
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-13 06:00:00",
+                    "dia_text": "lunes",
+                    "main": {
+                        "temp": 5.07,
+                        "temp_min": -1.72,
+                        "temp_max": 9.08,
+                        "humedad": 60
+                    },
+                    "clima": [
+                        {
+                            "id": 6,
+                            "tipo": "nieve",
+                            "description": "Nieve"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 30.5,
+                        "direccion": 15
+                    },
+                    "visibilidad": 1000,
+                    "probabilidad_precipitacion": 90,
+                    "lluvia": {
+                        "volumen_1h": 3.09
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-14 06:00:00",
+                    "dia_text": "martes",
+                    "main": {
+                        "temp": 1.09,
+                        "temp_min": -2.54,
+                        "temp_max": 5.01,
+                        "humedad": 91
+                    },
+                    "clima": [
+                        {
+                            "id": 6,
+                            "tipo": "nieve",
+                            "description": "Nieve"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 20.5,
+                        "direccion": 77.4
+                    },
+                    "visibilidad": 900,
+                    "probabilidad_precipitacion": 4.05,
+                    "lluvia": {
+                        "volumen_1h": 0.01
+                    }
+                }
+            ]
+        }
+    ]
+}
