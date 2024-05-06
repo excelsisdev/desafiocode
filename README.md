@@ -65,7 +65,7 @@ El Ministerio de Agricultura y Ganadería en conjunto con la Dirección de meteo
 
 
 ## Set de datos
-Se provee un API REST público donde se detalla el pronostico extendido de los próximos 3 días, incluyendo además, el día de hoy, correspondiente a cada departamento estudiado (Central, Caaguazú, Boquerón) bajo la URL https://xxxx.xxxx/xxx. 
+Se provee un API REST público donde se detalla el pronostico extendido de los próximos 3 días, incluyendo además, el día de hoy, correspondiente a cada departamento estudiado (Central, Caaguazú, Boquerón) bajo la URL https://excelsisdev.github.io/desafiocode/db.json. 
 Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
 
 ### Ejemplo de respuesta de API en formato JSON
