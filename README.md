@@ -6,7 +6,7 @@ Dentro del repositorio, incluir un archivo readme.md que debe contener los sugui
 - El nombre de los integrantes del equipo con sus correos personales
 - Herramientas de programación utilizados (framework, pluggins, etc).
 
-Una ves terminado el desarrollo, deben levantar todo el proyecto al github del equipo y enviar un correo a xxxx@excelsis.com.py con el asunto **Hackathon - Code**.
+Una ves terminado el desarrollo, deben levantar todo el proyecto al github del equipo y enviar un correo a desarrollo_adm@excelsis.com.py con el asunto **Hackathon - Code**.
 Dentro del correo deben incluir:
 - El nombre del equipo
 - El nombre de los integrantes del equipo 
