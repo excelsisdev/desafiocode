@@ -23,9 +23,9 @@ El Ministerio de Agricultura y Ganadería en conjunto con la Dirección de meteo
 - El diseño de la página debe contar con imágenes alucivas al estado del tiempo. Los posibles valores esperados son (nublado_total, soleado, lluvia, tormenta_electrica, nublado_parcialemente, nieve). Por supuesto, se espera de la creatividad del diseñador para mostrar cada una de la variables meteorológicas que se tienen lectura de una forma concisa y entendible.
 - El pronóstico extendido además, debe mostrar los *tipo de alerta*, que deberá se calculada en base a las variables meteorológicas por cada día. Estas alertas servirán como ayuda a los productores para tomar decisiones con respecto a sus cultivos.
 - El *tipo de alerta* está categorizada de la siguiente manera:
-	- óptimo: indica que las variables meteorológicas es el ideal para el cultivo.
- 	- precaución: indica que las variables meteorológicas puede ser perjudicial si no se toman medidas preventivas.
-  	- peligroso: indica que las variables meteorológicas tiene grandes probabilidades de provocar daños irreparables del cultivo.
+	- óptimo: indica que la combinación de las variables meteorológicas es la ideal para el cultivo.
+ 	- precaución: indica que la combinación de las variables meteorológicas puede ser perjudicial si no se toman medidas preventivas.
+  	- peligroso: indica que la combinación de las variables meteorológicas tiene grandes probabilidades de provocar daños irreparables del cultivo.
 - La página debe poder adaptarse a las distintas resoluciones de pantalla.
 - Si bien se cuenta con un mockup básico de lo que se espera ver en la página web. También se espera que el equipo de desarrolladores sea capaz de mejorar la idea inicial, siempre tomando en cuenta el objetivo de la página, que consisten en comunicar de una manera fácil e intuitiva a los productores sobre los posibles cambios climátivos abruptos que puedan ocurrir en la región.
 
