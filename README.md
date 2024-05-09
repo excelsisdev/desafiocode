@@ -13,7 +13,7 @@ Dentro del correo deben incluir:
 - La URL del repositorio github para su posterior evaluación técnica.
 
 ## Enunciado
-El Ministerio de Agricultura y Ganadería en conjunto con la Dirección de meteorología e hidrología del Paraguay están trabajando para encontrar una solución a las perdidas de cultivos ocasionadas por el cambio abrupto del clima de la región. Es por esto, que se pone en contacto con ustedes para desarrollar una página que permita alertar a los productores sobre posibles fenómenos meteorológicos que perjudiquen la producción. 
+El Gremio de Agricultores (GRAMA) en conjunto con la Dirección de meteorología de la región, están trabajando para encontrar una solución a las perdidas de cultivos ocasionadas por el cambio abrupto del clima de la región. Es por esto, que se pone en contacto con ustedes para desarrollar una página que permita alertar a los productores sobre posibles fenómenos meteorológicos que perjudiquen la producción.. 
 
 ## Requerimientos funcionales
 **Descripción General:** Desarrollar y diseñar una página web que permita mostrar a los productores, el pronóstico extendido de los departamentos estudiados en el país, que por el momento son: Central, Boquerón, Caaguazú.
