@@ -180,4 +180,4 @@ Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
 ## Recursos digitales
 Dentro del repositorio, en la carpeta llamada *recursos_digitales* encontrarán lo siguiente:
 - Un mockup básico que les servirá como guía de lo que se espera en el desarrollo de la página.
-- La presentación del desafío hecho en powerpoint.
+- La presentación del desafío en formato PDF.
