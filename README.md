@@ -1,10 +1,10 @@
 # Hackathon ```<code/>```
 ## Consideraciones iniciales
-En la cuenta de github deben crear un nuevo repositorio que debe ser nombrado igual que el nombre del equipo y debe estar **publico**.
+En la cuenta de github deben crear un nuevo repositorio que debe ser nombrado igual que el nombre del equipo y debe estar **público**.
 Dentro del repositorio, incluir un archivo readme.md que debe contener los suguientes datos:
 - El nombre del equipo 
 - El nombre de los integrantes del equipo con sus correos personales
-- Herramientas de programación utilizados (framework, pluggins, etc).
+- Herramientas de programación utilizadas (framework, plugins, etc).
 
 Una ves terminado el desarrollo, deben levantar todo el proyecto al github del equipo y enviar un correo a desarrollo_adm@excelsis.com.py con el asunto **Hackathon - Code**.
 Dentro del correo deben incluir:
@@ -17,17 +17,17 @@ El Gremio de Agricultores (GRAMA) en conjunto con la Dirección de meteorología
 
 ## Requerimientos funcionales
 **Descripción General:** Desarrollar y diseñar una página web que permita mostrar a los productores, el pronóstico extendido de los departamentos estudiados en el país, que por el momento son: Central, Boquerón, Caaguazú.
-- El usuario debe ser capaz de seleccionar un departamentos y poder visualizar el pronostico extendido.
-- La página debe estar preparada para mostrar mas departamentos a medida que se vayan obteniendo los datos en un futuro. 
+- El usuario debe ser capaz de seleccionar un departamento y poder visualizar el pronóstico extendido.
+- La página debe estar preparada para mostrar más departamentos a medida que se vayan obteniendo los datos en un futuro. 
 - El pronóstico extendido debe mostrar todas las variables meteorológicas obtenidas: temperatura, clima, viento, visibilidad, probabilidad de precipitación y el volumen de lluvia predicho.
-- El diseño de la página debe contar con imágenes alucivas al estado del tiempo. Los posibles valores esperados son (nublado_total, soleado, lluvia, tormenta_electrica, nublado_parcialemente, nieve). Por supuesto, se espera de la creatividad del diseñador para mostrar cada una de la variables meteorológicas que se tienen lectura de una forma concisa y entendible.
-- El pronóstico extendido además, debe mostrar los *tipo de alerta*, que deberá se calculada en base a las variables meteorológicas por cada día. Estas alertas servirán como ayuda a los productores para tomar decisiones con respecto a sus cultivos.
+- El diseño de la página debe contar con imágenes alusivas al estado del tiempo. Los posibles valores esperados son (nublado_total, soleado, lluvia, tormenta_electrica, nublado_parcialemente, nieve). Por supuesto, se espera de la creatividad del diseñador para mostrar cada una de la variables meteorológicas que se tienen lectura de una forma concisa y entendible.
+- El pronóstico extendido además, debe mostrar los *tipos de alerta*, que deberá ser calculada en base a las variables meteorológicas por cada día. Estas alertas servirán como ayuda a los productores para tomar decisiones con respecto a sus cultivos.
 - El *tipo de alerta* está categorizada de la siguiente manera:
 	- óptimo: indica que la combinación de las variables meteorológicas es la ideal para el cultivo.
  	- precaución: indica que la combinación de las variables meteorológicas puede ser perjudicial si no se toman medidas preventivas.
   	- peligroso: indica que la combinación de las variables meteorológicas tiene grandes probabilidades de provocar daños irreparables del cultivo.
 - La página debe poder adaptarse a las distintas resoluciones de pantalla.
-- Si bien se cuenta con un mockup básico de lo que se espera ver en la página web. También se espera que el equipo de desarrolladores sea capaz de mejorar la idea inicial, siempre tomando en cuenta el objetivo de la página, que consisten en comunicar de una manera fácil e intuitiva a los productores sobre los posibles cambios climátivos abruptos que puedan ocurrir en la región.
+- Si bien se cuenta con un mockup básico de lo que se espera ver en la página web. También se espera que el equipo de desarrolladores sea capaz de mejorar la idea inicial, siempre tomando en cuenta el objetivo de la página, que consiste en comunicar de una manera fácil e intuitiva a los productores sobre los posibles cambios climáticos abruptos que puedan ocurrir en la región.
 
 **Cálculos solicitados**
 - Grados Fahrenheit: Se espera que la temperatura pueda visualizarse en grados Celsius y Fahrenheit. (Fahrenheit debe ser calculado en base al celsius).
@@ -39,7 +39,7 @@ El Gremio de Agricultores (GRAMA) en conjunto con la Dirección de meteorología
      * Toma en cuenta como único valor de entrada, la velocidad del viento, para calcular el tipo de alerta
      * Se espera que cada equipo tome en cuenta mas valores y combinaciones para calcular el tipo de alerta.
      * Usen la creatividad y por sobre todo, el sentido común para llegar a un cálculo coherente dentro de la aplicación.
-     * Los tipo de alertas pueden ser (optimo, precaución, peligroso)
+     * Los tipo de alertas pueden ser (optimo, precaucion, peligroso)
      *
      * @param array $weatherDataPerDay
      * @return string
@@ -65,7 +65,7 @@ El Gremio de Agricultores (GRAMA) en conjunto con la Dirección de meteorología
 
 
 ## Set de datos
-Se provee un API REST público donde se detalla el pronostico extendido de los próximos 3 días, incluyendo además, el día de hoy, correspondiente a cada departamento estudiado (Central, Caaguazú, Boquerón) bajo la URL https://excelsisdev.github.io/desafiocode/db.json. 
+Se provee un API REST público donde se detalla el pronóstico extendido de los próximos 3 días, incluyendo además, el día de hoy, correspondiente a cada departamento estudiado (Central, Caaguazú, Boquerón) bajo la URL https://excelsisdev.github.io/desafiocode/db.json. 
 Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
 
 ### Ejemplo de respuesta de API en formato JSON
@@ -170,14 +170,14 @@ Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
          - `tipo` Posibles valores (nublado_total, soleado, lluvia, tormenta_electrica, nublado_parcialemente, nieve)
          - `descripcion` Descripción del tipo de clima
        - `viento`
-         - `velocidad` Velocidad del viento. Medidos en kilometros/hora.
+         - `velocidad` Velocidad del viento. Medidos en kilómetros/hora.
          - `direccion` Dirección del viento. Medidos en grados
        - `visibilidad` Visibilidad media. Medidos en metros.
        - `probabilidad_precipitacion` Los valores del parámetro varían entre 0 y 1, donde 0 es igual al 0%, 1 es igual al 100%
        - `lluvia`
-         - `volumen_1h` Volumen de lluvia de la última hora, medida en milimetros
+         - `volumen_1h` Volumen de lluvia de la última hora, medida en milímetros
 
 ## Recursos digitales
 Dentro del repositorio, en la carpeta llamada *recursos_digitales* encontrarán lo siguiente:
-- Un mockup básico que les servirá como guía de lo que se espera en el desarrollo de la página.
+- Un mockup básico que servirá como guía de lo que se espera en el desarrollo de la página.
 - La presentación del desafío en formato PDF.
